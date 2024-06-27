@@ -1,0 +1,34 @@
+naming:
+  suffix: "-sjt"
+
+components:
+  guacamole:
+    state: disabled
+  aks_dns:
+    state: disabled
+  analytics_workspace_management:
+    state: disabled
+  cert_manager:
+    state: disabled
+  trust_manager:
+    state: disabled
+  github_runner:
+    state: disabled
+  ingress_nginx:
+    state: disabled
+  jupyter_hub:
+    state: enabled
+    namespace: jupyterhub-sjt
+  keda:
+    state: disabled
+  metrics_server:
+    state: disabled
+  ohdsi:
+    state: enabled
+    namespace: ohdsi-sjt
+  secrets_distributor:
+    state: disabled
+  workspace_definitions:
+    state: disabled
+    repository:
+      path: sandbox

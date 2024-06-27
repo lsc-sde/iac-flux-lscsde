@@ -1,18 +1,18 @@
 apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
-  name: lscsde-flux
+  name: lscsde-flux-sjt
   annotations:
     lsc-sde.nhs.uk/definitionVersion: "1.0.1"
 spec:
   dependsOn:
-    - name: lscsde-namespaces
+  - name: lscsde-namespaces-sjt
   targetNamespace: lscsde-config
-  releaseName: lscsde-flux
+  releaseName: lscsde-flux-sjt
   chart:
     spec:
       chart: lscsde-flux
-      version: 0.1.59
+      version: 0.1.46
       sourceRef:
         kind: HelmRepository
         name: core
@@ -73,7 +73,7 @@ spec:
     - kind: ConfigMap
       name: helm-config
     - kind: ConfigMap
-      name: environment-configuration
+      name: environment-configuration-sjt
       valuesKey: azure_state
       targetPath: azure.state
     - kind: ConfigMap
@@ -81,4 +81,4 @@ spec:
       valuesKey: values.yaml
       targetPath: components.secrets_distributor.config
     - kind: ConfigMap
-      name: environment-component-config
+      name: environment-component-config-sjt

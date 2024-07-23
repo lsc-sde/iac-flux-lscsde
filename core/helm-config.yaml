@@ -3,13 +3,13 @@ components:
   aks_dns:
     chart_version: "0.2.11"
   analytics_workspace_management:
-    chart_version: "0.1.32"
+    chart_version: "0.1.33"
   cert_manager:
     chart_version: "v1.14.2"
   github_runner:
     chart_version: "0.1.28"
   ingress_nginx:
-    chart_version: "4.9.1"
+    chart_version: "4.11.1"
   jupyter_hub:
     chart_version: "3.2.1"
   keda:

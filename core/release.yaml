@@ -12,7 +12,7 @@ spec:
   chart:
     spec:
       chart: lscsde-flux
-      version: 0.1.69
+      version: 0.1.70
       sourceRef:
         kind: HelmRepository
         name: core
@@ -72,6 +72,8 @@ spec:
       name: flux-config
     - kind: ConfigMap
       name: helm-config
+    - kind: ConfigMap
+      name: image-config
     - kind: ConfigMap
       name: environment-configuration
       valuesKey: azure_state

@@ -5,46 +5,55 @@ components:
       branch: main
   analytics_workspace_management:
     repository:
-      branch: "release/0.1.15"
+      branch: "release/0.1.20"
   cert_manager:
     repository:
-      branch: "release/0.1.37"
+      branch: "release/0.1.43"
   github_runner:
     repository:
       branch: "release/0.1.56"
   ingress_nginx:
     repository:
-      branch: "release/0.1.59"
+      branch: "release/0.1.63"
   jupyter_hub:
     repository:
-      branch: "release/0.2.104"
+      branch: "release/0.2.114"
   keda:
     repository:
-      branch: "release/0.1.42"
+      branch: "release/0.1.45"
   metrics_server:
     repository:
       branch: main
   ohdsi:
     repository:
-      branch: "release/0.1.68"
+      branch: "release/0.1.71"
   secrets_distributor:
     repository:
-      branch: "release/0.1.5"
+      branch: "release/0.1.6"
   guacamole:
     repository:
-      branch: release/0.1.21
+      branch: release/0.1.24
   superset:
     repository:
-      branch: release/0.1.16
+      branch: release/0.1.17
   rabbitmq:
     repository:
-      branch: release/0.1.18
+      branch: release/0.1.20
   observability_metrics:
     repository:
       branch: release/0.1.42
   keycloak:
     repository:
-      branch: release/0.1.70
+      branch: release/0.1.72
   awms_guacamole:
     repository:
-      branch: release/0.1.26
+      branch: release/0.1.28
+  observability-metrics:
+    repository:
+      branch: release/0.1.45
+  awms_crate:
+    repository:
+      branch: release/0.1.5
+  awms_datasource:
+    repository:
+      branch: release/0.1.4

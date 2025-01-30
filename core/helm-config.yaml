@@ -1,9 +1,9 @@
 
 components:
   aks_dns:
-    chart_version: "0.2.12"
+    chart_version: "0.2.13"
   analytics_workspace_management:
-    chart_version: "0.1.35"
+    chart_version: "0.1.48"
   cert_manager:
     chart_version: "v1.14.2"
   github_runner:
@@ -17,10 +17,14 @@ components:
   metrics_server:
     chart_version: "3.12.0"
   ohdsi:
-    chart_version: "0.1.33"
+    chart_version: "0.1.35"
   secrets_distributor:
-    chart_version: "0.2.12"
+    chart_version: "0.2.14"
   guacamole:
-    chart_version: "0.1.15"
+    chart_version: "0.1.16"
   awms_guacamole:
-    chart_version: 0.1.26
+    chart_version: 0.1.28
+  awms_crate:
+    chart_version: 0.1.5
+  awms_datasource:
+    chart_version: 0.1.4

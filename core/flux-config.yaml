@@ -59,4 +59,4 @@ components:
       branch: release/0.1.4
   neulander:
     repository:
-      branch: release/0.1.7
+      branch: release/0.1.8

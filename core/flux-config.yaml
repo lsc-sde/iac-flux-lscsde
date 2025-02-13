@@ -57,3 +57,6 @@ components:
   awms_datasource:
     repository:
       branch: release/0.1.4
+  neulander:
+    repository:
+      branch: release/0.1.5

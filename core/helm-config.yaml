@@ -28,3 +28,5 @@ components:
     chart_version: 0.1.5
   awms_datasource:
     chart_version: 0.1.4
+  cr8tor_publisher:
+    chart_version: 0.1.42

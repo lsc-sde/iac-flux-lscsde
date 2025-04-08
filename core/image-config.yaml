@@ -15,3 +15,5 @@ components:
     image: ghcr.io/lsc-sde-crates/cr8tor-publisher/cr8tor-metadata-service:0.1.52
   cr8tor_publish_service:
     image: ghcr.io/lsc-sde-crates/cr8tor-publisher/cr8tor-publish-service:0.1.52
+    storage_account_lsc: stalscuksdatadevcr8lsc
+    storage_account_nw: stalscuksdatadevcr8nw

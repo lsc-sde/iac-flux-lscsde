@@ -17,3 +17,5 @@ components:
     image: ghcr.io/lsc-sde-crates/cr8tor-publisher/cr8tor-publish-service:0.1.52
     storage_account_lsc: stalscuksdatadevcr8lsc
     storage_account_nw: stalscuksdatadevcr8nw
+    storage_account_rg: rg-lsc-uks-datadev-cr8tor
+    storage_account_sub_id: e57c997a-42cb-4ad2-ac6f-4a336a2dd35b

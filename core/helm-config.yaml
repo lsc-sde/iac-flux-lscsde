@@ -31,4 +31,4 @@ components:
   neulander:
     chart_version: 0.2.0
   cr8tor_publisher:
-    chart_version: 0.1.52
+    chart_version: 0.1.53

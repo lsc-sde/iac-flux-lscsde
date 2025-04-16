@@ -1,0 +1,11 @@
+  cr8tor_approval_service:
+    image: ghcr.io/lsc-sde-crates/cr8tor-publisher/cr8tor-approval-service:0.1.55
+  cr8tor_metadata_service:
+    image: ghcr.io/lsc-sde-crates/cr8tor-publisher/cr8tor-metadata-service:0.1.55
+  cr8tor_publish_service:
+    image: ghcr.io/lsc-sde-crates/cr8tor-publisher/cr8tor-publish-service:0.1.55
+    storage_account_lsc: stalscuksdataprdcr8lsc
+    storage_account_nw: stalscuksdataprdcr8nw
+    storage_account_rg: rg-lsc-uks-dataprd-cr8tor
+    storage_account_sub_id: 91c5e986-1570-4f22-9871-8922561f261e
+    key_vault: kv-lsc-uks-dataprd-cr8

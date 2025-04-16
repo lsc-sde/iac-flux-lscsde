@@ -1,10 +1,10 @@
 components:
   cr8tor_approval_service:
-    image: ghcr.io/lsc-sde-crates/cr8tor-publisher/cr8tor-approval-service:0.1.52
+    image: ghcr.io/lsc-sde-crates/cr8tor-publisher/cr8tor-approval-service:0.1.55
   cr8tor_metadata_service:
-    image: ghcr.io/lsc-sde-crates/cr8tor-publisher/cr8tor-metadata-service:0.1.52
+    image: ghcr.io/lsc-sde-crates/cr8tor-publisher/cr8tor-metadata-service:0.1.55
   cr8tor_publish_service:
-    image: ghcr.io/lsc-sde-crates/cr8tor-publisher/cr8tor-publish-service:0.1.52
+    image: ghcr.io/lsc-sde-crates/cr8tor-publisher/cr8tor-publish-service:0.1.55
     storage_account_lsc: stalscuksdatatstcr8lsc
     storage_account_nw: stalscuksdatatstcr8nw
     storage_account_rg: rg-lsc-uks-datatst-cr8tor

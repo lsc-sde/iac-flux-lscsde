@@ -23,9 +23,9 @@ components:
   metrics_server:
     repository:
       branch: main
-  ohdsi:
-    repository:
-      branch: "release/0.1.71"
+  # ohdsi:
+  #   repository:
+  #     branch: "release/0.1.71"
   secrets_distributor:
     repository:
       branch: "release/0.1.7"

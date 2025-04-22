@@ -9,9 +9,9 @@ components:
   cert_manager:
     repository:
       branch: "release/0.1.34"
-  github_runner:
-    repository:
-      branch: "release/0.1.56"
+  # github_runner:
+  #   repository:
+  #     branch: "release/0.1.56"
   ingress_nginx:
     repository:
       branch: "release/0.1.56"

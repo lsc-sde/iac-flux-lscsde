@@ -14,8 +14,8 @@ components:
     chart_version: "3.2.1"
   keda:
     chart_version: "2.13.1"
-  metrics_server:
-    chart_version: "3.12.0"
+  # metrics_server:
+  #   chart_version: "3.12.0"
   secrets_distributor:
     chart_version: "0.2.11"
   guacamole:

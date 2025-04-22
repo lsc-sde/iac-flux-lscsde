@@ -21,9 +21,9 @@ components:
   keda:
     repository:
       branch: "release/0.1.42"
-  metrics_server:
-    repository:
-      branch: main
+  # metrics_server:
+  #   repository:
+  #     branch: main
   secrets_distributor:
     repository:
       branch: "release/0.1.5"

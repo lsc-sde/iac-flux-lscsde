@@ -21,4 +21,4 @@ components:
   guacamole:
     chart_version: "0.1.12"
   cr8tor_publisher:
-    chart_version: 0.1.55
+    chart_version: 0.1.56

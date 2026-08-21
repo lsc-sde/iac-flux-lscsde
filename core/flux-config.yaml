@@ -18,18 +18,18 @@ components:
   jupyter_hub:
     repository:
       branch: "release/0.2.99-patched-20241010"
-  keda:
-    repository:
-      branch: "release/0.1.42"
+  # keda:
+  #   repository:
+  #     branch: "release/0.1.42"
   # metrics_server:
   #   repository:
   #     branch: main
   secrets_distributor:
     repository:
       branch: "release/0.1.5"
-  guacamole:
-    repository:
-      branch: release/0.1.6
-  # superset:
+  # guacamole:
+  #   repository:
+  #     branch: release/0.1.6
+  # # superset:
   #   repository:
   #     branch: release/0.1.15
